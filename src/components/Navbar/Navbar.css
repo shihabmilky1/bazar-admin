@@ -1,0 +1,72 @@
+.navbar-name {
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  color: #019376;
+}
+.navbar-name:hover {
+  color: #019376 !important;
+}
+
+.navlink,
+.dropdownlink {
+  font-size: 15px;
+  color: black !important;
+  font-weight: 700;
+  margin-left: 20px;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+}
+.navlink:hover,
+.dropdownlink:hover {
+  color: #019376 !important;
+}
+.dropdownlink:hover {
+  background: transparent;
+}
+.join-button {
+  padding: 10px 15px !important;
+  background: #019276;
+  color: #fff !important;
+  border-radius: 6px;
+}
+.join-button:hover {
+  color: white !important;
+  background: #019275d7;
+}
+.sticky-navbar {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 60px;
+  background: rgb(255, 255, 255);
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  transition: all 2s;
+}
+.user-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+.dropdown-menu[data-bs-popper] {
+  left: -135px;
+}
+#navbarDropdown:after {
+  display: none;
+}
+.dropdown-menu {
+  border: 0px;
+}
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+.menu-icon i {
+  font-size: 20px;
+}
